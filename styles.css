@@ -1,0 +1,102 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-image: url(img/bg.png);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 900px;
+}
+
+/* page header */
+.header {
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 28px;
+  color: #4CAF50;
+}
+
+/* race tracks */
+.race_track {
+  width: 100%;
+}
+
+.inputbar {
+  position: static;
+  margin: 20px 0px 000px -1000px;
+}
+
+.field {
+  border-bottom: 5px solid white ;
+  border-right: 5px solid red;
+  height: 102px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: green;
+}
+
+.red {
+  border-top: 7px solid white ;
+}
+
+/* horse images */
+img {
+  width: 9%;
+  height: 104%;
+}
+
+.start{
+  position: relative;
+}
+
+/* start button */
+.start-button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  float: left;
+  margin: 20px 0px 0px 900px;
+  border-radius: 5%;
+}
+
+.stop-button {
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  float: left;
+  margin: 20px 0px 0px 900px;
+  border-radius: 5%;
+}
+
+/* result table */
+#winner {
+  display: block;
+  float: right;
+  margin: 20px 150px 20px 0px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  background: #4CAF50;
+  border-radius: 5%;
+}
+
+#winner p {
+  display: flex;
+  text-align: center;
+}
