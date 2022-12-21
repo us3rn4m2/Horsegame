@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Horce Racing Game</title>
+	<link rel="stylesheet" href="styles2.css">
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+
+		</div>
+		<div class="race_track">
+			<div class="field red" id="f"><img id="red" src="img/stand.gif" alt="horse image"
+				 class="red__player" />
+				 <div class="subfield red" id="redf"></div>
+			</div>
+			
+			<div class="field green"><img id="green" src="img/stand.gif"
+				 alt="horse image" class="green__player" />
+			</div>
+			<div class="field blue"><img id="blue" src="img/stand.gif"
+				 alt="horse image" class="blue__player" />
+			</div>
+			<div class="field orange"><img id="orange" src="img/stand.gif"
+				 alt="horse image" class="orange__player" />
+			</div>
+			<div class="field yellow"><img id="yellow" src="img/stand.gif" alt="horse image"
+				 class="yellow_player" />
+			</div>
+		</div>
+		<div class="start">
+			<button id="start-button" class="start-button">경기시작</button>
+
+		</div>
+		<div class="start">
+			<button id="stop-button" class="stop-button">경기중단</button>
+
+		</div>
+		<input type="text" class="inputbar" value="3" id="maxspd"> 최소속도
+		<br>
+		<input type="text" class="inputbar" value="12" id="minspd"> 최대속도
+		<br>
+		<input type="text" class="inputbar" value="2.6" id="dec"> 감속도
+		<br>
+		<input type="text" class="inputbar" value="3" id="cool"> 카운트다운
+	
+	</div>
+
+	<script src="main2.js"></script>
+</body>
+
+</html>	
