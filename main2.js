@@ -103,7 +103,7 @@ function startGame() {
           || playerThreePos >= document.body.clientWidth - 620
           || playerFourPos >= document.body.clientWidth - 620
           || playerFivePos >= document.body.clientWidth - 620) {
-            Deceleration = parseInt(document.getElementById('dec').value);
+            Deceleration = parseFloat(document.getElementById('dec').value);
       } if (flagtest == 0) {
             //Speed = ;
             playerOnePos += (rand(parseInt(document.getElementById('minspd').value), parseInt(document.getElementById('maxspd').value)) / (Deceleration == 1 ? 1 : Deceleration * rand(1,5)));    
